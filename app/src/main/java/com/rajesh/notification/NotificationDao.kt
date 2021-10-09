@@ -1,0 +1,1 @@
+package com.rajesh.notificationimport androidx.room.*import com.rajesh.notification.model.notificationModel@Daointerface NotificationDao {    @Query("SELECT * FROM notificationModel")    fun getAll(): List<notificationModel>    @Insert(onConflict = OnConflictStrategy.REPLACE)    fun insertAll(notiModel: notificationModel)}
