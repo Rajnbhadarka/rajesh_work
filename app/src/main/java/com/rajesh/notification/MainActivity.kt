@@ -47,7 +47,6 @@ class MainActivity : AppCompatActivity(), MyListener {
 
     override fun onResume() {
         super.onResume()
-
         getNotificationdata()
     }
 
