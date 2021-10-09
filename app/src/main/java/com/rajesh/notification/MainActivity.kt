@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity(), MyListener {
         }else{
             rvList.visibility = View.GONE
             tvNodata.visibility = View.VISIBLE
+
         }
     }
 
